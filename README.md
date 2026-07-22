@@ -1,4 +1,4 @@
-# 🚀 High-Speed PCIe + DDR SoC Subsystem with UVM Verification
+# High-Speed PCIe + DDR SoC Subsystem with UVM Verification
 
 
 
@@ -332,12 +332,5 @@ pcie-ddr-soc-uvm/
 * Successful stress testing with no data loss
 
 ---
-
-##  Future Enhancements
-
-* PCIe Gen4 / Gen5 support
-* Advanced traffic generators
-* FPGA prototyping (hardware validation)
-* Formal verification integration
 
 
