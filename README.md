@@ -2,10 +2,7 @@
 
 
 
-- [Features](#-features)
-- [Results](#-results)
-- [Future Enhancements](#-future-enhancements)
-- [Applications](#-applications)
+
 
 ## 📌 Overview
 
