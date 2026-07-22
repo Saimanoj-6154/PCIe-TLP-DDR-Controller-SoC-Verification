@@ -4,7 +4,7 @@
 
 
 
-## 📌 Overview
+## Overview
 
 This project presents the design and verification of a **high-performance SoC subsystem** integrating a **PCIe interface, DMA engine, and DDR memory controller** interconnected via an **AXI-based architecture**.
 
@@ -14,7 +14,7 @@ This project demonstrates **end-to-end SoC design + protocol-level verification*
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Design a scalable **SoC subsystem architecture**
 * Implement **PCIe endpoint controller**
@@ -26,9 +26,9 @@ This project demonstrates **end-to-end SoC design + protocol-level verification*
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
-### 🔹 High-Level Components
+### High-Level Components
 
 * **PCIe Endpoint Controller**
 * **DMA Engine (Scatter-Gather capable)**
@@ -38,13 +38,13 @@ This project demonstrates **end-to-end SoC design + protocol-level verification*
 
 ---
 
-### 🔹 Data Flow
+### Data Flow
 
 PCIe Host ⇄ PCIe Controller ⇄ DMA Engine ⇄ AXI Interconnect ⇄ DDR Memory
 
 ---
 
-### 🔹 Key Design Features
+### Key Design Features
 
 * High-speed packet-based communication
 * Burst-based memory transactions
@@ -53,28 +53,28 @@ PCIe Host ⇄ PCIe Controller ⇄ DMA Engine ⇄ AXI Interconnect ⇄ DDR Memory
 
 ---
 
-## 🏗️ RTL Design
+## RTL Design
 
-### 🔹 PCIe Controller
+### PCIe Controller
 
 * Transaction Layer Packet (TLP) handling
 * Completion logic
 * Flow control management
 
-### 🔹 DMA Engine
+###  DMA Engine
 
 * Memory ↔ PCIe transfers
 * Burst transactions
 * Scatter-Gather support
 * FSM-based control
 
-### 🔹 DDR Controller
+###  DDR Controller
 
 * Address mapping
 * Timing constraints
 * Refresh logic
 
-### 🔹 AXI Interconnect
+###  AXI Interconnect
 
 * Read/Write channels
 * Handshake protocols
@@ -82,36 +82,36 @@ PCIe Host ⇄ PCIe Controller ⇄ DMA Engine ⇄ AXI Interconnect ⇄ DDR Memory
 
 ---
 
-## 🧪 Verification Methodology (UVM)
+##  Verification Methodology (UVM)
 
-### 🔹 Testbench Architecture
+###  Testbench Architecture
 
 * UVM-based hierarchical environment
 * Multi-agent verification (PCIe, AXI, DDR)
 
 ---
 
-### 🔹 UVM Components
+###  UVM Components
 
-#### ✔ Environment
+####  Environment
 
 * Integrates all agents and scoreboard
 
-#### ✔ Agents
+####  Agents
 
 * PCIe Agent
 * AXI Agent
 * DDR Agent
 
-#### ✔ Driver
+####  Driver
 
 * Generates protocol-specific transactions
 
-#### ✔ Monitor
+####  Monitor
 
 * Observes DUT signals and transactions
 
-#### ✔ Scoreboard (Critical)
+####  Scoreboard (Critical)
 
 * End-to-end data integrity checking
 * Validates:
@@ -120,7 +120,7 @@ PCIe Host ⇄ PCIe Controller ⇄ DMA Engine ⇄ AXI Interconnect ⇄ DDR Memory
 
 ---
 
-### 🔹 Assertions (SVA)
+###  Assertions (SVA)
 
 * AXI handshake correctness
 * PCIe packet format validation
@@ -128,7 +128,7 @@ PCIe Host ⇄ PCIe Controller ⇄ DMA Engine ⇄ AXI Interconnect ⇄ DDR Memory
 
 ---
 
-### 🔹 Functional Coverage
+###  Functional Coverage
 
 * Protocol states
 * Burst sizes
@@ -137,23 +137,23 @@ PCIe Host ⇄ PCIe Controller ⇄ DMA Engine ⇄ AXI Interconnect ⇄ DDR Memory
 
 ---
 
-## 🧪 Test Scenarios
+##  Test Scenarios
 
-### 🔹 Basic Tests
+###  Basic Tests
 
 * PCIe read/write transactions
 * DDR memory access
 
-### 🔹 Integration Tests
+###  Integration Tests
 
 * DMA transfers (PCIe ↔ DDR)
 
-### 🔹 Stress Tests
+###  Stress Tests
 
 * High-throughput traffic
 * Back-to-back transactions
 
-### 🔹 Corner Cases
+###  Corner Cases
 
 * Misaligned transfers
 * Packet loss / retry
@@ -161,7 +161,7 @@ PCIe Host ⇄ PCIe Controller ⇄ DMA Engine ⇄ AXI Interconnect ⇄ DDR Memory
 
 ---
 
-## 📊 Performance Metrics
+##  Performance Metrics
 
 * **Throughput (GB/s)**
 * **Latency (cycle-level)**
@@ -170,7 +170,7 @@ PCIe Host ⇄ PCIe Controller ⇄ DMA Engine ⇄ AXI Interconnect ⇄ DDR Memory
 
 ---
 
-## ⚙️ Tools & Technologies
+##  Tools & Technologies
 
 | Category     | Tools                    |
 | ------------ | ------------------------ |
@@ -183,7 +183,7 @@ PCIe Host ⇄ PCIe Controller ⇄ DMA Engine ⇄ AXI Interconnect ⇄ DDR Memory
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 
@@ -313,7 +313,7 @@ pcie-ddr-soc-uvm/
 ```
 ---
 
-## 🚀 Features
+##  Features
 
 * High-speed PCIe + DDR integration
 * Scalable AXI-based architecture
@@ -324,7 +324,7 @@ pcie-ddr-soc-uvm/
 
 ---
 
-## 📊 Results
+##  Results
 
 * Verified PCIe, AXI, and DDR protocol compliance
 * Achieved reliable high-throughput data transfer
@@ -333,7 +333,7 @@ pcie-ddr-soc-uvm/
 
 ---
 
-## 🔬 Future Enhancements
+##  Future Enhancements
 
 * PCIe Gen4 / Gen5 support
 * Advanced traffic generators
