@@ -1,7 +1,5 @@
 # 🚀 High-Speed PCIe + DDR SoC Subsystem with UVM Verification
 
-- [RTL Design](#%EF%B8%8F-rtl-design)
-- [Verification Methodology (UVM)](#-verification-methodology-uvm)
 - [UVM Components](#-uvm-components)
 - [Assertions (SVA)](#-assertions-sva)
 - [Test Scenarios](#test-scenarios)
