@@ -1,8 +1,7 @@
 # 🚀 High-Speed PCIe + DDR SoC Subsystem with UVM Verification
 
 
-- [Tools & Technologies](#%EF%B8%8F-tools--technologies)
-- [Project Structure](#-project-structure)
+
 - [Features](#-features)
 - [Results](#-results)
 - [Future Enhancements](#-future-enhancements)
