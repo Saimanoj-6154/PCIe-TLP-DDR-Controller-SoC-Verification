@@ -340,14 +340,4 @@ pcie-ddr-soc-uvm/
 * FPGA prototyping (hardware validation)
 * Formal verification integration
 
----
-
-## 📌 Key Learnings
-
-* SoC integration of high-speed interfaces
-* Protocol design (PCIe, AXI, DDR)
-* UVM verification methodology
-* Assertion-based verification (SVA)
-* Debugging complex hardware systems
-
 
