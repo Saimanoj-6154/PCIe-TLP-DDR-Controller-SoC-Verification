@@ -350,12 +350,4 @@ pcie-ddr-soc-uvm/
 * Assertion-based verification (SVA)
 * Debugging complex hardware systems
 
----
-
-## 🏆 Applications
-
-* Data center accelerators
-* High-speed networking systems
-* Storage controllers
-* AI/ML hardware platforms
 
