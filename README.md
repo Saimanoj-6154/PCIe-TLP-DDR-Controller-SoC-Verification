@@ -1,14 +1,5 @@
 # 🚀 High-Speed PCIe + DDR SoC Subsystem with UVM Verification
 
->The High-Speed PCIe + DDR SoC Subsystem is a high-bandwidth data movement engine designed for modern SoCs. It serves as a bridge between an external host (via PCIe Gen 4/5) and system memory (DDR4/5), utilizing a high-performance AXI4 Interconnect.
-
----
-
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Language](https://img.shields.io/badge/HDL-Verilog%20%7C%20SystemVerilog-blue)
-![Verification](https://img.shields.io/badge/Verification-UVM-green)
-![Flow](https://img.shields.io/badge/Flow-RTL--to--GDSII-orange)
-
 ---
 ## Table of Contents
 
